@@ -1,0 +1,12 @@
+
+services:
+ node_app:
+   
+   volumes:
+   - .\src:/app/src:ro
+   build:
+    context: .
+    target: development
+   environment:
+   - NODE_ENV=development
+   command: npm run start-dev
