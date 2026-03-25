@@ -1,7 +1,7 @@
 
 services:
  node_app:
-   image: docker push adelgohar4/first_dockerrepo:latest
+   image: docker adelgohar4/first_dockerrepo:v1
    container_name: second_project
    ports:
    - "3001:3000"
