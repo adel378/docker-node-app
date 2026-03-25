@@ -22,7 +22,7 @@ const URI = `mongodb://${DB_USR}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}`;
  mongoose.connect(URI).then(() => console.log('connect to db')).catch((err) => console.log('failed to connect to db : ', err));
 
 // Route بسيط
-app.get('/', (req, res) => res.send('<h1>Hello from Express Server ,hello adel m  </h1>!'));
+app.get('/', (req, res) => res.send('<h1>Hello from Express Server ,hello </h1>!'));
 
 
 // Start server
